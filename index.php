@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:broj="http://www.w3.org/1999/xhtml">
 <head>
     <title> Prvi PHP </title>
     <meta charset="utf-8">
@@ -7,6 +7,10 @@
 
 <body>
 <h1>PRVI PHP</h1>
+<forum>
+    Prvi broj:<br>
+    <input type="text" name="broj1" <br>
+</forum>
 
 <?php
         echo('Ovo je prije odlomka<br>');
@@ -18,6 +22,9 @@
     echo('<br> Vaša ocjena je:' . $ocjena);
     $nova_var = 166.8;
     echo('<br>'. $nova_var);
+
+    $rezultat = $ocjena + $nova_var;
+    echo('<br>' . $rezultat);
 ?>
 
 <p>
@@ -25,3 +32,4 @@
 </P>
 </body>
 </html>
+

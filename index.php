@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Prvi PHP</title>
+    <title>INA</title>
     <meta charset="utf-8">
 </head>
 
 <body>
-<h1>Prvi PHP</h1>
+<h1>INA</h1>
 
 <form method="post" action="rezultat.php">
-    Prvi broj:<br>
-    <input type="text" name="broj1"><br>
-    Drugi broj:<br>
-    <input type="text" name="broj2"><br>
-    Treći broj:<br>
-    <input type="text" name="broj3"><br>
-    <br>
-    <input type="text" name="ime"><br>
+    Broj litara goriva:<br>
+    <input type="text" name="broj_litara">
     <br>
     <input type="submit" value="Izračunaj">
 </form>

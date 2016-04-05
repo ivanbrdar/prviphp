@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Prvi PHP</title>
+    <title>INA</title>
     <meta charset="utf-8">
 </head>
 
 <body>
-<h1>Prvi PHP</h1>
+<h1>INA</h1>
 
 <?php
 
